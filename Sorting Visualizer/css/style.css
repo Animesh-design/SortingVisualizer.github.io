@@ -9,7 +9,7 @@
   }
   
   nav {
-    background-image: url(/image/pic_back.jpg);
+    background-image: url(/image/aa.jpg);
     color: white;
     display: -ms-grid;
     display: grid;
@@ -72,7 +72,7 @@
     -ms-grid-columns: (16.66667%)[6];
         grid-template-columns: repeat(6, 16.66667%);
     place-content: center;
-    padding: 2% 0%;
+    padding: 4% 0%;
   }
   
   nav .header_right .algos button {
@@ -117,8 +117,9 @@
   section {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 50% ;
-        grid-template-columns: 50% 50% ;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100% ;
+        background-color : rgba(90, 179, 78, 0.575);
   }
   
   section #Info_Cont1 {
@@ -130,7 +131,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
   }
   
   section #Info_Cont2 {
