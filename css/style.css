@@ -9,7 +9,7 @@
   }
   
   nav {
-    background-image: url(/image/aa.jpg);
+    background-color: brown;
     color: white;
     display: -ms-grid;
     display: grid;
